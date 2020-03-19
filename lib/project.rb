@@ -10,11 +10,9 @@ attr_reader :backers
 
   def add_backer(backer)
     @backers << backer
-<<<<<<< HEAD
     backer.backed_projects << self
   end
 
-=======
   end
 
 
